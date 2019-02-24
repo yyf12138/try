@@ -1,0 +1,700 @@
+body{
+	margin: 0 auto;
+}
+.top{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+	width: 100%;
+	height: 52px;
+	position: fixed;
+	top: 0px;
+	background: white;
+}
+.top1{
+    position: relative;
+    left: 50px;
+	width: 150px;
+	height: 52px;
+	top: 0px;
+	z-index: 1;	
+	background: darkorange;
+}
+.img1{
+	position: relative;
+	top: 10px;
+	left: 50px;
+	width: 45px;
+	height: 35px;
+}
+.a1{
+	position: relative;
+	top: 0px;
+	left: 120px;
+	
+}
+.a2{
+	position: relative;
+	top: 0px;
+	left: 180px;
+	
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    left: 230px;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 60px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color:darkorange;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+.a3{
+	position: relative;
+	top: 0px;
+	left: 280px;
+	
+}
+.a4{
+	position: relative;
+	top: 0px;
+	left: 340px;
+	
+}
+.a5{
+	position: relative;
+	top: 0px;
+	left: 380px;
+	
+}
+.a6{
+	position: relative;
+	top: 0px;
+	left: 420px;
+	
+}
+.a7{
+	position: relative;
+	top: 0px;
+	left: 460px;
+	
+}
+.a8{
+	position: relative;
+	top: 0px;
+	left: 500px;
+	
+}
+.top2-{
+	width: 100%;
+	height: 50px;
+	background: #f1f1f1;
+}
+.top3{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+	background: #f1f1f1;
+	width: 100%;
+	height: 330px;
+}
+#loop-wrap {
+    position: relative;
+    width: 550px;
+    height: 275px;
+    margin: 50px;
+    overflow: hidden;
+    
+}
+
+#loop-images-container{
+    position: absolute;
+    left: 0; top: 0;
+    width: 300%; 
+    height: 100%;
+    font-size: 0;
+   
+}
+#loop-images-container{
+    position: absolute;
+    left: 0; top: 0;
+    width: 560%;
+    height: 100%;
+    font-size: 0;
+    transform: translate(0,0); 
+    animation: loop 10s linear infinite;
+}
+
+
+@keyframes loop {
+    0% {transform: translate(0,0);}
+    25% {transform: translate(0,0);} 
+
+    30% {transform: translate(-20%,0);} 
+    60% {transform: translate(-20%,0);}
+
+    65% {transform: translate(-40%,0);}
+    95% {transform: translate(-40%,0);}
+
+    100% {transform: translate(0,0);} 
+}
+.a10{
+	margin: 50px;
+	width: 500px;
+	height: 275px;
+	background: white;
+}
+.img2{
+	position: relative;
+	top: 0px;
+    width: 247px;
+	height: 135px;
+}
+.img3{
+	position: relative;
+	top: 0px;
+    width: 247px;
+	height: 135px;
+}
+.img4{
+	position: relative;
+	top: 0px;
+    width: 247px;
+	height: 135px;
+}
+.img5{
+	position: relative;
+	top: 0px;
+    width: 247px;
+	height: 135px;
+}
+.top4{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+	background: #f1f1f1;
+	width: 100%;
+	height: 230px;
+}
+.a11{
+	margin: 50px;	
+	width: 340px;
+	height: 160px;
+	background: white;
+}
+.a{
+	float: left;
+	width: 83px;
+	height: 80px;
+	background: white;
+}
+.a12{
+	margin: 50px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;	
+	width: 270px;
+	height: 160px;
+	background: white;
+}
+.aa1{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	width: 5px;
+	height: 10px;
+	background: darkorange;
+}
+.w1{
+	position: relative;
+	
+	left: 15px;
+	font-size: 15px;
+}
+.aa2{
+	position: relative;
+	top: 15px;
+	left: 90px;
+	width: 37px;
+	height: 20px;
+	font-size: 8px;
+	background: white;
+}
+.aa2:hover {background-color:darkorange;}	
+.img6{
+	position: absolute;
+	top: 480px;
+	left: 410px;
+	width: 90px;
+	height: 65px;
+}	
+.img7{
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 90px;
+	height: 65px;
+}
+.w2{
+	position: relative;
+    top: 28px;
+    left: 12px;
+	font-size: 12px;
+}
+.w3{
+	position: relative;
+    top: 28px;
+    left: 25px;
+	font-size: 12px;
+}		
+.a13{
+	margin: 50px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;	
+	width: 270px;
+	height: 160px;
+	background: white;
+}
+.aa3{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	width: 5px;
+	height: 10px;
+	background: darkorange;
+}
+.w4{
+	position: relative;
+	
+	left: 15px;
+	font-size: 15px;
+}
+.aa4{
+	position: relative;
+	top: 15px;
+	left: 90px;
+	width: 37px;
+	height: 20px;
+	font-size: 8px;
+	background: white;
+}
+.aa4:hover {background-color:darkorange;}	
+.img8{
+	position: absolute;
+	top: 480px;
+	left: 710px;
+	width: 90px;
+	height: 65px;
+}	
+.img9{
+	position: relative;
+	top: 50px;
+	left: 0px;
+	width: 90px;
+	height: 65px;
+}
+.w5{
+	position: relative;
+    top: 28px;
+    left: 12px;
+	font-size: 12px;
+}
+.w6{
+	position: relative;
+    top: 28px;
+    left: 35px;
+	font-size: 12px;
+}		
+.a14{
+	margin: 50px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;	
+	width: 270px;
+	height: 160px;
+	background: white;
+}
+.aa5{
+	position: relative;
+	top: 20px;
+	left: 10px;
+	width: 5px;
+	height: 10px;
+	background: darkorange;
+}
+.w7{
+	position: relative;
+	left: 15px;
+	font-size: 15px;
+}
+.w8{
+	position: relative;
+	top: 3px;
+	left: 20px;
+	font-size: 13px;
+	color: lightgrey;
+}
+.w9{
+	font-size: 12px;
+}
+.top5{
+	display: -webkit-flex;
+    display: flex;
+	background: #f1f1f1;
+	width: 100%;
+	height: 40px;
+}
+.a15{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;	
+	width: 1152px;
+	height: 40px;
+	background: white;
+	margin: auto;
+}
+.top6{
+	width: 100%;
+	height: 30px;
+	background: #f1f1f1;
+}
+.w10{
+	position: relative;
+	top: 0px;
+	left: 20px;
+	font-size: 14px;
+	color: darkorange;
+}
+.w11{
+	position: relative;
+	left: 70px;
+	font-size: 13px;
+	color: grey;
+}
+.w12{
+	position: relative;
+	left: 100px;
+	font-size: 13px;
+	color: grey;
+}
+.w13{
+	position: relative;
+	left: 130px;
+	font-size: 13px;
+	color: grey;
+}
+.top7{
+	width:20%;
+	height:2000px;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	background: #f1f1f1;
+	
+}
+.a16{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+	width: 190px;
+	height: 120px;
+	background: #f1f1f1;
+}
+.img10{
+	position: relative;
+	top: 10px;
+	left: 20px;
+	width: 150px;
+	height: 100px;
+}
+.img11{
+	position: relative;
+	top: 20px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.w14{
+	position: relative;
+	top: 5px;
+	left: 25px;
+	font-size: 15px;
+}
+.w15{
+	position: absolute;
+	top: 150px;
+	left: 105px;
+	font-size: 13px;
+}
+.w16{
+	position: absolute;
+	top: 170px;
+	left: 105px;
+	font-size: 11px;
+	color: grey;
+}
+.img12{
+	position: relative;
+	top: 10px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.w17{
+	position: relative;
+	top: 0px;
+	left: 25px;
+	font-size: 15px;
+}
+.w18{
+	position: absolute;
+	top: 260px;
+	left: 105px;
+	font-size: 13px;
+}
+.w19{
+	position: absolute;
+	top: 280px;
+	left: 105px;
+	font-size: 11px;
+	color: grey;
+}
+.img13{
+	position: relative;
+	top: 10px;
+	left: 20px;
+	width: 50px;
+	height: 50px;
+}
+.w20{
+	position: relative;
+	top: 0px;
+	left: 25px;
+	font-size: 12px;
+}
+.w21{
+	position: absolute;
+	top: 380px;
+	left: 105px;
+	font-size: 13px;
+}
+.w22{
+	position: absolute;
+	top: 400px;
+	left: 105px;
+	font-size: 11px;
+	color: grey;
+}
+.aa6{
+	margin: 10PX;
+	width: 60px;
+	height: 40px;
+	background: white;
+}
+.aa6:hover{background-color: lightblue;}
+.w29{
+	font-size: 10px;
+	color: grey;
+}
+.top8{
+	position: relative;
+	float: left;
+	width:7%;
+	height:2000px;
+	background:white;
+}
+.top9{
+	position: relative;
+	float: left;
+	width:40%;
+	height:2000px;
+	background:white;
+}
+.top10{
+	position: relative;
+	float: left;
+	width:7%;
+	height:2000px;
+	background:white;
+}
+.top11{
+	position: relative;
+	float: left;
+	width:22%;
+	height:2000px;
+	background:white;
+}
+.a17{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+	width: 100%;
+	height: 50px;
+	background: white;
+}
+.w23{
+	position: relative;
+	left: 5px;
+	font-size: 15px;
+}
+.w24{
+	position: relative;
+	left: 40px;
+	font-size: 15px;
+}
+.w25{
+	position: relative;
+	left: 80px;
+	font-size: 15px;
+}
+.a18{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+	width: 100%;
+	height: 100px;
+	background: white;
+}
+.w26{
+	position: relative;
+	left: 5px;
+	font-size: 15px;
+	color: lightblue;
+}
+.w27{
+	position: relative;
+	left: 10px;
+	font-size: 10px;
+	color: grey;
+}
+.img14{
+	width: 100%
+	height:300px;
+}
+.w28{
+	font-size: 13px;
+	color: grey;
+}
+.a19{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+	background: #f1f1f1;
+	width: 100%;
+	height:50px;
+}
+.aa7{
+	width: 92px;
+	height: 50px;
+    
+}
+.aa7:hover{background-color: darkorange;}
+.w28{
+	font-size: 13px;
+	color: grey;
+}
+.aa9{
+	background: white;
+	width: 100%;
+	height: 300px;
+}
+.img15{
+	width: 100%;
+	height: 150px;
+}
+.w30{
+	font-size: 15px;
+}
+.w31{
+	font-size: 13px;
+}
+.img16{
+	width: 100%
+	height:200px;
+}
+.top12{
+	position: relative;
+	float: left;
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+	-webkit-align-items: center;
+    align-items: center;
+	width: 100%;
+	height: 500px;
+	background: #f1f1f1;
+}
+.aa10{
+	display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+	width: 220px;
+	height: 300px;
+	background: white;
+}
+.aa11{
+	width: 170px;
+	height: 300px;
+	background: white;
+}
+.img17{
+	width: 170px;
+	height: 170px;
+}
+.w32{
+	font-size: 18px;
+}
+.w33{
+	font-size: 14px;
+	color: grey;
+}

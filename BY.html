@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>优设网</title>
+	<link rel="stylesheet" type="text/css" href="css/qd.css">
+	<script type="text/javascript">
+         var xml;
+         if (window.XMLHttpRequest) {
+            xml = new XMLHttpRequest();
+         }else{
+            xml = new ActiveXObject("Microsoft.XMLHTTP")
+        };
+        xml.onreadystatechange=function(){
+           if (xml.readyState==4 && xml.status==200 ) {
+            var x=JSON.parse(xml.responseText);
+            document.getElementById("loop-images-container").innerHTML="<img src='"+x.img1+"'>"+"<img src='"+x.img2+"'>"+"<img src='"+x.img3+"'>";
+           }
+          
+        }
+        xml.open("GET","https://www.easy-mock.com/mock/5c6c13beab815c130b4720ab/example/",true);
+        xml.send();
+        </script>
+</head>
+<body>
+<div class="top">
+	<div class="top1">
+		<img class="img1" src="img\uisdc-logo.png">
+	</div>
+	<div class="a1"><p>首页</p></div>
+	<div class="a2"><p>文章</p></div>
+	<div class="dropdown">
+        <button class="dropbtn">网址导航</button>
+        <div class="dropdown-content">
+            <a href="https://hao.uisdc.com/">设计导航</a>
+            <a href="https://hao.uisdc.com/book/">图书导航</a>
+            <a href="https://hao.uisdc.com/shop/">电商导航</a>
+            <a href="https://color.uisdc.com/">色彩导航</a>
+        </div>
+    </div>
+    <div class="a3"><p>细节猎人</p></div>
+    <div class="a4"><p>优设读报</p></div>
+    <div class="a5"><p>培训课程</p></div>
+    <div class="a6"><p>UiiiUiii教程</p></div>
+    <div class="a7"><p>免费素材</p></div>
+    <div class="a8"><p>关于我们</p></div>
+</div>
+<div class="top2-"></div>
+<div class="top3">
+	<div id="loop-wrap">
+    <div id="loop-images-container">
+    </div>
+    </div>
+    <div class="a10">
+		<img class="img2" src="img\uisdc-rbanner-181212.jpg">
+		<img class="img3" src="img\uisdc-rb-0213c4d.jpg">
+		<img class="img4" src="img\uisdc-pr-rb02132.jpg">
+		<img class="img5" src="img\uisdc-pr-rb0213.jpg">
+	</div>
+</div>
+<div class="top4">
+	<div class="a11">		
+		<button class="a"><p>热门下载</p></button>
+		<button class="a"><p>界面设计</p></button>
+		<button class="a"><p>设计文章</p></button>
+		<button class="a"><p>优设专题</p></button>
+		<button class="a"><p>职场经验</p></button>
+		<button class="a"><p>酷站推荐</p></button>
+	</div>
+	<div class="a12">
+		<div class="aa1"></div>
+		<p class="w1">热门专题</p>
+		<button class="aa2">MORE</button>
+		<img class="img6" src="img\uisdc-lbbanner-190106.jpg">
+		<img class="img7" src="img\uisdc-brbanner2-1913.jpg">
+		<p class="w2">高质量图库网站</p>
+		<p class="w3">PS技巧大全</p>
+	</div>
+	<div class="a13">
+		<div class="aa3"></div>
+		<p class="w4">设计灵感</p>
+		<button class="aa4">MORE</button>
+		<img class="img8" src="img\uisdc-blbanner-181105.jpg">
+		<img class="img9" src="img\uisdc-rbbanner-1901032.jpg">
+		<p class="w5">海报设计精选</p>
+		<p class="w6">300篇设计技巧</p>
+	</div>
+	<div class="a14">
+		<div class="aa5"></div>
+		<p class="w7">课程推荐</p>
+		<p class="w8">每一课都是突破</p>
+		<li class="w9">超人气零基础手绘课程</li>
+		<li class="w9">热门！零基础学C4D课程</li>
+		<li class="w9">名额有限！动效设计特训班</li>
+		<li class="w9">名师！零基础UI设计课程</li>
+	</div>
+</div>
+<div class="top5">
+	<div class="a15">
+		<p class="w10">优设读报</p>
+		<p class="w11">1、《阿丽塔·战斗天使》海报发布</p>
+		<p class="w12">2、支付宝将推出移动花卡：花呗账单延后还</p>
+		<p class="w13">3、好看又能打的小米9正式发布</p>
+	</div>
+	
+</div>
+<div class="top6"></div>
+<div class="top7">
+	<div class="a16">
+		<img class="img10" src="img/uisdc-qt-613.png">
+	</div>
+	<div class="a16">
+		<img class="img11" src="img/uiii-ps-icon.png">
+		<p class="w14"><strong>PhotoShop</strong></p>
+		<p class="w15">PS新手入门</p>
+		<p class="w16">设计师必学神器</p>
+	</div>
+	<div class="a16">
+		<img class="img12" src="img/uiii-ai-icon.png">
+		<p class="w17"><strong>lllustrator</strong></p>
+		<p class="w18">AI新手入门</p>
+		<p class="w19">矢量绘图小能手</p>
+	</div>
+	<div class="a16">
+		<img class="img13" src="img/uiii-ae-icon.png">
+		<p class="w20"><strong>After Effects</strong></p>
+		<p class="w21">AE新手入门</p>
+		<p class="w22">动效设计不在难</p>
+	</div>
+	<div class="a16">
+		<button class="aa6"><p class="w29">干货集合</p></button> 
+		<button class="aa6"><p class="w29">APP设计</p></button>
+		<button class="aa6"><p class="w29">网页设计</p></button> 
+		<button class="aa6"><p class="w29">PS技巧</p></button>
+	</div>
+	<div class="a16">
+		<button class="aa6"><p class="w29">UI设计</p></button> 
+		<button class="aa6"><p class="w29">用户体验</p></button>
+		<button class="aa6"><p class="w29">经验分享</p></button> 
+		<button class="aa6"><p class="w29">平面设计</p></button>
+	</div>
+	<div class="a16">
+		<button class="aa6"><p class="w29">神器推荐</p></button> 
+		<button class="aa6"><p class="w29">logo设计</p></button>
+		<button class="aa6"><p class="w29">酷站推荐</p></button> 
+		<button class="aa6"><p class="w29">设计师职场</p></button>
+	</div>
+	<div class="a16">
+		<button class="aa6"><p class="w29">交互设计</p></button> 
+		<button class="aa6"><p class="w29">字体设计</p></button>
+		<button class="aa6"><p class="w29">产品设计</p></button> 
+		<button class="aa6"><p class="w29">Web前端</p></button>
+	</div>
+	<div class="a16">
+		<button class="aa6"><p class="w29">中文字体</p></button> 
+		<button class="aa6"><p class="w29">图库网站</p></button>
+		<button class="aa6"><p class="w29">免费资源</p></button> 
+		<button class="aa6"><p class="w29">自学手绘</p></button>
+	</div>
+	<div class="a16">
+		<img  class="img10" src="img/2017-dkt-510G.jpg">
+	</div>
+	<div class="a16">
+		<img  class="img10" src="img/c4d-1810032.png">
+	</div>
+	<div class="a16">
+		<img class="img13" src="img/uisdc-dktbanner-0501.png">
+		<p class="w20"><strong>优设零基础手绘特训班</strong></p>
+		
+	</div>
+	<div class="a16">
+		<img class="img13" src="img/uiii2-862-site.jpg">
+		<p class="w20"><strong>优优教程网</strong></p>
+		
+	</div>
+	<div class="a16">
+		<img class="img13" src="img/aliyun-lbanner-181024.jpg">
+		<p class="w20"><strong>阿里云建站神器</strong></p>
+		
+	</div>
+	<div class="a16">
+		<img class="img13" src="img/uisdc-lbanner-ljcok.jpg">
+		<p class="w20"><strong>零基础训练营</strong></p>
+		
+	</div>
+	<div class="a16">
+		<img  class="img10" src="img/aliyun-tg-100831.jpg">
+	</div>
+</div>
+<div class="top8"></div>
+<div class="top9">
+	<div class="a17">
+	    <p class="w23">最新文章</p>
+	    <p class="w24">近期热门</p>
+	    <p class="w25">专题文章</p>
+    </div>
+    <div class="a18">
+	    <p class="w26"><strong>能快速提高团队工作效率的组件库，到底该如何构建？</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\uisdc-banner-20190220-8.jpg">
+    <p class="w28">本文将深入细节，从多角度去解析组件化的概念，帮助我们理解、构建组件库。设计组件库的概念本身是从程序的开发模式中........</p>
+    <div class="a18">
+	    <p class="w26"><strong>Mac的预览功能，原来还藏着8个提高工作效率的黑科技！</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\uisdc-banner-20190221-6.jpg">
+    <p class="w28">使用过 Mac 的都说比 Windows系统有效率，但是具体体现在哪里很多人一时也回答不上来。作为一名设计师，并且是 Mac 的深度用户，我觉得最有效率的就...</p>
+    <div class="a18">
+	    <p class="w26"><strong>这个最常见的【X】,高手是如何设计的？</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\uisdc-banner-20190221-2.jpg">
+    <p class="w28">读完这篇文章你将会了解到： 关闭按钮「x」的设计历史 「x」设计的注意事项 关闭按钮设计的最佳案例 「x」图标在应用中是一个非常常见的交互暗示，可以将烦人</p>
+    <div class="a18">
+	    <p class="w26"><strong>拥有一双指哪画哪的神之手是怎样的一种体验？</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\2019-uisdc-illustration-course-1-1.jpg">
+    <p class="w28">截至现在，优设大课堂： 学员总数突破10000人 开设课程超过100期 零基础手绘课已开至第10期 学员总数超过1400人 在你看到这篇文章的时候，已经有5...</p>
+    <div class="a18">
+	    <p class="w26"><strong>关于人工智能，设计师需要知道的6个术语</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\uisdc-banner-20190219-2.jpg">
+    <p class="w28">人工智能，这个曾经常常出现在科幻作品里的词汇，如今已经成为我们日常生活的一部分，相信大家从我们最近的文章中也能看出端倪。但随着人工智能领域的演进，一</p>
+    <div class="a18">
+	    <p class="w26"><strong>这篇超详细的文章，帮你搞定B端产品设计</strong></p>
+	    <p class="w27">2019-02-21   推荐：3年2班程远</p>
+    </div>
+    <img class="img14" src="img\uisdc-banner-20190213-8.jpg">
+    <p class="w28">大部分UI设计师面对B端产品设计都是唯恐避之不及的，那B端产品应该从哪些角度去切入设计？ 对于很多设计师来说，遇上B端产品都是一件让人感觉头痛的事情。我从1...</p>
+  
+</div>
+<div class="top10">
+	
+</div>
+<div class="top11">
+	<div class="a19">
+		<button class="aa7"><p>细节猎人</p></button>
+		<button class="aa7"><p>职场规划</p></button>		
+		<button class="aa7"><p>猜你喜欢</p></button>
+
+	</div>
+	<div class="aa8">
+			<p class="w28">1、拥有一双指哪画哪的神之手是怎样</p>
+			<p class="w28">2、2019该如何规划才能快速及进步</p>
+			<p class="w28">3、怎么保证别人年后长胖、你却可以</p>
+			<p class="w28">4、想成为设计团队的leader?</p>
+	</div>
+	<div class="aa9">
+		<img  class="img15" src="img/uisdc-zt-sy08032.jpg">
+		<p class="w30">手机摄影</p>
+		<p class="w31">掌握拍摄窍门去朋友圈收赞</p>
+	</div>
+	<div class="aa9">
+		<img  class="img15" src="img/yszt-0715-sjqs2.jpg">
+		<p class="w30">设计趋势</p>
+		<p class="w31">流行设计一目了然</p>
+	</div>
+	<div class="aa9">
+		<img  class="img15" src="img/zt-xtsy-0711.jpg">
+		<p class="w30">后期修图</p>
+		<p class="w31">最全面的后期效果方法总结</p>
+	</div>
+	<div class="aa9">
+		<img  class="img15" src="img/wechat-xcx-banner0831.jpg">
+		<p class="w30">微信小程序</p>
+		<p class="w31">今年最热的小程序设计和开发方法</p>
+	</div>
+	<div class="aa9">
+		<img  class="img16" src="img/aliyun-uisdc-banner1202.jpg">
+	</div>
+	
+	<div class="aa9">
+		<img  class="img16" src="img/uisdc-dkt-draw0213.jpg">
+	</div>
+</div>
+<div class="top12">
+	<div class="aa10">
+		<div class="aa11">
+		    <img class="img17" src="img/uisdc-bttsdh.png">
+		    <p class="w32">设计培训</p>
+		    <p class="w33">优设超人气零基础课程，ui设计、手绘、产品课程等。访问预约</p>
+	    </div>
+    </div>
+	<div class="aa10">
+		<div class="aa11">
+		    <img class="img17" src="img/usidc-btm-hunters.png">
+		    <p class="w32">细节猎人</p>
+		    <p class="w33">设计总监喜欢看的频道！捕获产品细节之美。立即查看</p>
+	    </div>
+	</div>
+	<div class="aa10">
+		<div class="aa11">
+		    <img class="img17" src="img/uisdc-btyszt.jpg">
+		    <p class="w32">优设专题</p>
+		    <p class="w33">最具含金量的干货文章合辑，你想看的都在这里。点击学习</p>
+	    </div>
+	</div>
+	<div class="aa10">
+		<div class="aa11">
+		    <img class="img17" src="img/uisdc-btzlg.png">
+		    <p class="w32">找灵感</p>
+		    <p class="w33">强悍！还怕没灵感？这里藏了大家都在用的新鲜灵感库。戳我戳我</p>
+	    </div>
+	</div>
+</div>
+
+
+  </body>
+</html>
